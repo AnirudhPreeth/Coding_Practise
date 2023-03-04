@@ -85,4 +85,16 @@ print(x[-1])
 
 #3. Python Program for factorial of a number.
 
+import math
+def factorialofnumber(n):
+  return(math.factorial(n))
+num = 10
+print(f"The factorial of the number {num} is,", factorialofnumber(num), " .")
+#The above is my solution to the problem. 
+#Solution.
+def factorial(n):
+  return 1 if (n==1 or n==0) else n * factorial(n - 1);
+num = 5
+print("Factorial of",num,"is",factorial(num))
+
 
